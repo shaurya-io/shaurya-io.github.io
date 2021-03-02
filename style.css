@@ -1,11 +1,11 @@
 
 
 *{
-	padding: 0px;
-	margin: 0px;
-	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif;
-	font-weight: 600;
-	box-sizing: border-box;
+padding: 0px;
+margin: 0px;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif;
+font-weight: 600;
+box-sizing: border-box;
 }
 
 .zoom{
@@ -54,7 +54,7 @@
 }
 
 .zoom #layer5{
-    padding-top: 175px; /*ONS: switched this from 200px to 175px*/
+    padding-top: 175px; 
     position: absolute;
     width: 100%;
     z-index: 5;
@@ -76,27 +76,27 @@
 
 
 #header{
-    padding: 20px;      /*ONS: switched this from 60px to 20px*/
-	width: 100%;
-	background: #FFF;
-	text-align: justify;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-evenly;
-	align-items: left;
+    padding: 20px; 
+    width: 100%;
+    background: #FFF;
+    text-align: justify;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: left;
 }
 
 
 #header nav a{
 
-	font-size: 20px;
-	text-decoration: none;
-	padding-top: 15px;
-    padding-right: 60px;
-    padding-left: 60px;
-    padding-bottom: 15px;
-	text-align: center;
-	color: black;
+font-size: 20px;
+text-decoration: none;
+padding-top: 15px;
+padding-right: 60px;
+padding-left: 60px;
+padding-bottom: 15px;
+text-align: center;
+color: black;
 }
 
 
@@ -528,13 +528,13 @@ p{
 
 /*---------------------------------------------------------------
 -------------------------------------------------------------------*/
-    .authorcontainer1{
-        margin-right: 200px;
-        display: inline-block;
-        padding-left: 60px;
-        font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+.authorcontainer1{
+   margin-right: 200px;
+   display: inline-block;
+   padding-left: 60px;
+   font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     
-        display: flex;
+   display: flex;
         justify-content: left;
         align-items: center;
         min-height: 100vh;

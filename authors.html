@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+<title>A Piece of Dreamy Cake</title>
+	<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+
+	<div id="header">
+
+
+		<nav>
+		<a href="index.html">Story</a>
+        <a href="process.html">Process</a>
+        <a href="authors.html" class="active">Authors</a>
+        
+
+		</nav>
+    </div>
+    
+    <section class = "zoom">
+
+        <img src = "assets/Stars.PNG" id = "layer1">
+        <img src = "assets/Bed_frame.PNG" id = "layer2">
+        <img src = "assets/Sleeping.PNG" id = "layer3">
+        <img src = "assets/Blanket.PNG" id = "layer4">
+        <img src = "assets/authorstake1.png" id = "layer7">
+    </section>
+
+
+<style>
+
+.row{
+    display: flex;
+}
+.column{
+    flex: 50%;
+    padding-left: 70px;
+}
+
+.row1{
+    display: flex;
+}
+.column1{
+    flex: 50%;
+    padding-left: 70px;
+}
+</style>
+
+<div class = "row">
+<div class = "column">
+    <div class ="authorcontainer">
+		<div class="card">
+			<div class="photo">
+                <img src = "assets/o.jpg">
+            </div>
+            <div class = "authorcontent">
+                <h2>Ons Taktak</h2>
+            <a href = "mailto:ot503@nyu.edu">Send Email</a>
+            </div>    
+        </div>
+    </div>
+</div>
+<div class = "column">
+    <div class ="authorcontainer1">
+		<div class="card1">
+			<div class="photo1">
+                <img src = "assets/shaurya .jpg">
+            </div>
+            <div class = "authorcontent1">
+                <h2>Shaurya Singh</h2>
+            <a href = "mailto:ss11077@nyu.edu">Send Email</a>
+            </div>           
+        </div>
+    </div>
+</div>
+</div>
+
+<div class = "row1">
+<div class = "column1">
+    <div class ="authorcontainer2">
+		<div class="card2">
+			<div class="photo2">
+                <img src = "assets/ilya.jpg">
+            </div>
+            <div class = "authorcontent2">
+                <h2>Ilya Akimov</h2>
+            <a href = "mailto:ia1125@nyu.edu">Send Email</a>
+            </div>           
+        </div>
+    </div>
+</div>
+<div class = "column1">
+    <div class ="authorcontainer3">
+		<div class="card3">
+			<div class="photo3">
+                <img src = "assets/shamma.jpg">
+            </div>
+            <div class = "authorcontent3">
+                <h2>Shamma AlMansoori</h2>
+            <a href = "mailto:ska6972@nyu.edu">Send Email</a>
+            </div>           
+        </div>
+    </div>
+</div>
+</div>
+
+
+    <script type = "text/javascript">
+    var layer1 = document.getElementById('layer1')
+    scroll = window.pageYOffset;
+    document.addEventListener('scroll', function(e) {var offset = window.pageYOffset;
+    scroll = offset;
+    layer1.style.width = (100 + scroll/5) + '%';
+    });
+
+    var layer2 = document.getElementById('layer2')
+    scroll = window.pageYOffset;
+    document.addEventListener('scroll', function(e) {var offset = window.pageYOffset;
+    scroll = offset;
+    layer2.style.width = (100 - scroll/5) + '%';
+    layer2.style.right = scroll/50 + '%';
+
+    });
+
+    var layer3 = document.getElementById('layer3')
+    scroll = window.pageYOffset;
+    document.addEventListener('scroll', function(e) {var offset = window.pageYOffset;
+    scroll = offset;
+    /*layer3.style.width = (100 + scroll/5) + '%';*/
+    layer3.style.top = scroll/20+'%';
+    layer3.style.rotate(scroll);
+    });
+
+    var layer4 = document.getElementById('layer4')
+    scroll = window.pageYOffset;
+    document.addEventListener('scroll', function(e) {var offset = window.pageYOffset;
+    scroll = offset;
+    layer4.style.width = (100 - scroll/5) + '%';
+
+    var layer7 = document.getElementById('layer7')
+    scroll = window.pageYOffset;
+    document.addEventListener('scroll', function(e) {var offset = window.pageYOffset;
+    scroll = offset;
+    layer7.style.width = (100 + scroll/10) + '%';
+    });
+
+
+    });
+    
+    
+    
+    
+    
+    
+    </script>
+
+</body>
+</html>

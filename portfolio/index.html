@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" type="image/jpg" href="img/displaypicture.jpg"/>
+ 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Portfolio - Home</title>
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <div class="left"></div>
+    <div class="right"></div>
+
+    <nav class="nav">
+      <ul>
+        <a href = "https://youtu.be/dQw4w9WgXcQ?t=43">
+        <li class="title">Spring 2021</li></a>
+        <a href = "https://commlab.nyuadim.com">
+        <li class="commlab">Comm Lab</li></a>
+        <a href = "https://nyuad.nyu.edu"> 
+        <li class="nyuad">NYU Abu Dhabi</li></a>
+        <a href = "http://jiwonshin.com/about.html">
+        <li class="profjiwon">Prof. Jiwon Shin</li></a>
+
+        <li class="profile">
+          <a href = "https://linkedin.com/in/shauryasinghprofile">  
+          <div class="img"></div></a>
+
+        </li>
+      </ul>
+    </nav>
+
+    <div class="content">
+      <a href = "https://shaurya-io.github.io/30mff/index.html">
+        <div class="img-wrapper1">       
+          <div class="filmfest"></div>
+        </div>
+      </a>
+      <a href = "https://shaurya-io.github.io/soundhideandseek/index.html">
+        <div class="img-wrapper2">
+          <div class="sound"></div>
+        </div>
+      </a>
+
+      <a href = "https://shaurya-io.github.io/comicdreamycake/index.html">
+        <div class="img-wrapper3">
+          <div class="comic"></div>
+        </div>
+      </a>
+
+      <a href = "https://jhongover9000.github.io/assignment4/homePage.html">
+        <div class="img-wrapper4">
+          <div class="video"></div>
+        </div>
+      </a>
+
+     
+
+      <div class="text">
+        <h1>Shaurya Singh</h1>
+        <p>Click to view projects.</p>
+      </div>
+
+
+
+      <div class="bottomnav">
+        <ul>
+          <a href = "https://github.com/shaurya-io">
+          <li>github</li></a>
+          <a href = "mailto:shaurya.singh@nyu.edu">
+          <li>contact</li></a>
+          <a href = "documentation.html">
+          <li>documentation</li></a>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <script>
+
+    TweenMax.to('.left', 2, {
+      delay: .8,
+      width: '50%',
+      ease: Power2.easeInOut
+    })
+
+    TweenMax.to('.right', 2, {
+      delay: .6,
+      width: '50%',
+      ease: Power3.easeInOut
+    })
+
+    TweenMax.from('.nav', 2, {
+      delay: .8,
+      opacity: 0,
+      width: '100%',
+      ease: Expo.easeInOut
+    })
+
+    TweenMax.from('.text h1', 2, {
+      delay: .6,
+      x: 1600,
+      ease: Circ.easeInOut
+    })
+
+    TweenMax.from('.text p', 2, {
+      delay: .8,
+      x: 1600,
+      ease: Circ.easeInOut
+    })
+
+    TweenMax.to('.img-wrapper1 filmfest', 2, {
+      delay: 1.5,
+      width: '800px',
+      ease: Power2.easeInOut
+    })
+
+    TweenMax.to('.img-wrapper2 sound', 2, {
+      delay: 1.5,
+      width: '800px',
+      ease: Power2.easeInOut
+    })
+
+    TweenMax.to('.img-wrapper3 comic', 2, {
+      delay: 1.5,
+      width: '800px',
+      ease: Power2.easeInOut
+    })
+
+    TweenMax.to('.img-wrapper4 video', 2, {
+      delay: 1.5,
+      width: '0px',
+      ease: Power2.easeInOut
+    })
+
+    TweenMax.staggerFrom('.bottomnav ul li', 2, {
+      delay: 1,
+      x: 1000,
+      ease: Circ.easeInOut
+    }, 0.08)
+
+
+
+
+
+  </script>
+</body>
+
+</html>

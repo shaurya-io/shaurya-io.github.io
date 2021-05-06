@@ -1,0 +1,246 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Montserrat';
+  font-size: 12px;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+
+
+ul {
+  list-style: none;
+}
+
+
+
+
+.left,
+.right {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  z-index: -1;
+}
+
+.left {
+  background: #000000;
+  left: 0%;
+  width: 0%;
+}
+
+.right {
+  background: #000000;
+  right: 0%;
+  width: 100%;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 8vh;
+  padding: 0px;
+}
+
+.nav ul li {
+  display: inline-block;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 10px;
+  font-weight: 600;
+  padding: 0 50px;
+  left: 5vw;
+}
+
+.nav .title {
+  flex: 1;
+  font-size: 20px;
+  letter-spacing: 0;
+
+}
+
+.nav .title:hover {
+  color: #2bffa7;
+}
+
+
+.nav .commlab {
+  flex: 1;
+}
+
+.nav .commlab:hover {
+  color: #2bffa7;
+}
+
+.nav .nyuad {
+  flex: 4;
+}
+
+.nav .nyuad:hover {
+  color: #2bffa7;
+}
+
+.nav .profjiwon {
+  flex: 3;
+}
+
+.nav .profjiwon:hover {
+  color: #2bffa7;
+}
+
+.nav .profile {
+  flex: 0;
+}
+
+.nav .profile .img {
+  background-image: url('./img/displaypicture.jpg');
+  background-position: 50%;
+  background-size: cover;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+
+}
+
+
+.img-wrapper1 {
+  position: absolute;
+  bottom: 69vh;
+  left: 0px;
+}
+
+.img-wrapper1 .filmfest {
+  background-image: url('./img/30mff.gif');
+  background-size: cover;
+  height: 23vh;
+  width: 50vw;
+  opacity: .2;
+}
+
+.img-wrapper1 .filmfest:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+
+.img-wrapper2 {
+  position: absolute;
+  bottom: 46vh;
+  left: 0px;
+}
+
+.img-wrapper2 .sound {
+  background-image: url('./img/hideandseek.gif');
+  background-size: cover;
+  height: 23vh;
+  width: 50vw;
+  opacity: .2;
+}
+
+.img-wrapper2 .sound:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+
+.img-wrapper3 {
+  position: absolute;
+  bottom: 23vh;
+  left: 0px;
+}
+
+.img-wrapper3 .comic {
+  background-image: url('./img/comicdreamycake.gif');
+  background-size: cover;
+  height: 23vh;
+  width: 50vw;
+  opacity: .2;
+}
+
+.img-wrapper3 .comic:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.img-wrapper4 {
+  position: absolute;
+  bottom: 0;
+  left: 0px;
+}
+
+.img-wrapper4 .video {
+  background-image: url('./img/221ajumpstreet.gif');
+  background-size: cover;
+  position: center;
+  height: 23vh;
+  width: 50vw;
+  opacity: .2;
+}
+
+.img-wrapper4 .video:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+
+
+
+.text {
+  position: absolute;
+  top: 42vh;
+  left: 52vw;
+  transform: translateY(-50%);
+  font-size: 90px;
+  font-family: 'Montserrat';
+
+}
+
+.text h1 {
+  font-size: 90px;
+  color: #fff;
+  font-family: 'Montserrat';
+  font-weight: lighter;
+  text-transform: uppercase;
+  letter-spacing: 12px;
+}
+
+.text p {
+  font-size: 20px;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: 'Montserrat';
+  letter-spacing: 15px;
+}
+
+
+
+.bottomnav {
+  position: absolute;
+  bottom: 100px;
+  right: 50px;
+}
+
+.bottomnav ul li {
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 15px;
+  margin-top: 20px;
+}
+
+.bottomnav ul li:hover {
+  color: #2bffa7;
+}
+
